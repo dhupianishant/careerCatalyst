@@ -26,8 +26,8 @@
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/dhupianishant/ai-career-coach.git
-    cd ai-career-coach
+    git clone https://github.com/dhupianishant/careerCatalyst.git
+    cd careerCatalyst
     ```
 
 2. Install dependencies:
