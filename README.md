@@ -1,14 +1,23 @@
 # CareerCatalyst
 
-AI Career Coach is a project designed to assist individuals in navigating their career paths using AI-powered tools and insights. It provides personalized recommendations, resources, and guidance to help users achieve their career goals.
 
-## Features
+🚀 **CareerCatalyst** is a project designed to assist individuals in navigating their career paths using AI-powered tools and insights. It provides personalized recommendations, resources, and guidance to help users achieve their career goals.
+
+## 🌟 Features
 - Personalized career advice
-- Resume and cover letter analysis
-- Job search optimization
+- Markdown Resume Editor and Generator 
+- Cover Letter Generator 
 - Skill gap analysis and learning recommendations
+- Personalized Quizzes
 
-## Getting Started
+## 🛠️ Tech Stack
+- **Frontend**: React.js, Next.js, Tailwind CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: PostgreSQL  
+- **Authentication**: Clerk / OAuth  
+- **Deployment**: Vercel  
+
+## 🚀 Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v14 or higher)
@@ -17,7 +26,7 @@ AI Career Coach is a project designed to assist individuals in navigating their 
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/ai-career-coach.git
+    git clone https://github.com/dhupianishant/ai-career-coach.git
     cd ai-career-coach
     ```
 
@@ -31,8 +40,9 @@ AI Career Coach is a project designed to assist individuals in navigating their 
 3. Set up environment variables:
     Create a `.env` file in the root directory and add the required variables:
     ```
-    API_KEY=your_api_key
+    CLERK_SECRET_KEY=your_clerk_secret
     DATABASE_URL=your_database_url
+    GEMINI_API_KEY=gemini_api_key
     ```
 
 4. Start the development server:
@@ -42,30 +52,14 @@ AI Career Coach is a project designed to assist individuals in navigating their 
     yarn start
     ```
 
-## Usage
+## 📌 Usage
 - Access the application at `http://localhost:3000` after starting the server.
 - Follow the on-screen instructions to explore the features.
-- Check out the live deployment at [Live Demo](https://your-live-deployment-link.com).
+- Check out the live deployment at [Live Demo](https://ai-career-catalyst.vercel.app/).
 
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-name
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -m "Add feature-name"
-    ```
-4. Push to your branch:
-    ```bash
-    git push origin feature-name
-    ```
-5. Open a pull request.
 
-## License
+## 📜 License
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
-For questions or feedback, please contact [your-email@example.com].
+## 📬 Contact
+For questions or feedback, please contact [nishantdhupia18@gmail.com].
