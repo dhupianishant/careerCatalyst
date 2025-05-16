@@ -55,7 +55,7 @@
 ## 📌 Usage
 - Access the application at `http://localhost:3000` after starting the server.
 - Follow the on-screen instructions to explore the features.
-- Check out the live deployment at [Live Demo](https://ai-career-catalyst.vercel.app/).
+- Check out the live deployment at [Live Demo](https://careercatalyst.dhupianishant.in/).
 
 
 ## 📜 License
