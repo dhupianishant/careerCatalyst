@@ -51,6 +51,7 @@ export default function RootLayout({ children }) {
                 </div>
               </div>
             </footer>
+            <Analytics />
           </ThemeProvider>
         </body>
       </html>
